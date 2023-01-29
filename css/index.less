@@ -25,7 +25,6 @@
 .app-bar-scroll-bg {
   background: linear-gradient(60deg, rgb(82, 67, 170), rgb(93, 216, 255)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
   background-blend-mode: normal, normal;
-  color: rgb(255, 255, 255);
   color: #ffffff!important;
 }
 
@@ -36,8 +35,29 @@
   }
 }
 
+.preview_image {
+  position: absolute;
+  z-index: 0;
+  top: 10px;
+  right: 10px;
+  width: 120px;
+}
+
+.preview-box {
+  .part-name {
+    margin-top: -30px;
+    margin-left: 10px;
+  }
+  .part-desc {
+    font-weight: normal;
+    font-size: 18px;
+    max-width: 100%;
+    margin: 20px 10px 0;
+  }
+}
+
 .part-name {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -49,6 +69,15 @@
 
 .part-text {
   font-size: 16px;
+}
+
+.part-number {
+  position: absolute;
+  font-size: 64px;
+  bottom: -10px;
+  right: 10px;
+  color: #e6e8ea;
+  opacity: .3;
 }
 
 footer {
@@ -110,5 +139,19 @@ footer {
 
   li.active {
     border-left-color: #5243aa;
+  }
+}
+
+.why-box {
+  background-color: #172b4d;
+  color: #ffffff;
+  padding-top: 20px;
+
+  img {
+    position: absolute;
+    z-index: 0;
+    width: 100px;
+    bottom: 0; 
+    right: 0;
   }
 }
