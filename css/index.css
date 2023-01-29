@@ -74,11 +74,14 @@ footer hr {
 }
 footer .footer__menu {
   display: flex;
-  flex-flow: row;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: center;
   list-style: none inside;
   font-size: 12px;
   margin: 20px 0;
+}
+footer .footer__menu li {
+  margin: 0 10px;
 }
 footer .footer__menu a {
   text-decoration: none;
@@ -92,27 +95,37 @@ footer .mute-text {
 }
 .overview-menu li {
   margin-top: 20px;
-  border-left: 4px solid transparent;
-  padding-left: 10px;
+  border: 1px solid transparent;
+  border-left-width: 4px;
+  padding: 10px;
 }
 .overview-menu li a {
   text-decoration: none!important;
 }
 .overview-menu .part-desc {
-  max-width: 80%;
+  max-width: 100%;
   font-weight: normal;
+  font-size: 16px;
   color: #3b4b68 !important;
 }
 .overview-menu li.active .part-desc {
   font-weight: bold;
 }
 .overview-menu li.active {
-  border-left-color: #5243aa;
+  border-color: #dfdfdf;
+}
+.bracket {
+  font-size: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  font-weight: lighter;
 }
 .why-box {
-  background-color: #172b4d;
+  background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(240deg, #00b8d9, #0065ff) 0% 0% / auto repeat scroll padding-box border-box #0065ff;
   color: #ffffff;
-  padding-top: 20px;
+  padding: 40px 0 100px;
 }
 .why-box img {
   position: absolute;
@@ -120,5 +133,17 @@ footer .mute-text {
   width: 100px;
   bottom: 0;
   right: 0;
+}
+.customers-box {
+  padding: 40px 0 100px;
+}
+.customers-box img:not(:hover) {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transform: scale(0.7);
+}
+.customers-box img {
+  margin: 10px;
+  transition: all 0.1s linear;
 }
 /*# sourceMappingURL=index.css.map */
