@@ -1,0 +1,116 @@
+body {
+  min-height: 100vh;
+}
+.hero-section {
+  padding: 80px 0;
+}
+.hero-section__header {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.hero-section__subheader {
+  font-size: 18px;
+  line-height: 24px;
+}
+.top-customers {
+  filter: grayscale(100%);
+}
+.top-customers img {
+  margin: 4px;
+  transform: scale(0.8);
+}
+.part-number {
+  position: absolute;
+  font-size: 64px;
+  bottom: -10px;
+  right: 10px;
+  color: #e6e8ea;
+  opacity: 0.3;
+}
+.part-button {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+}
+.preview_image {
+  padding: 0 40px;
+  height: 300px;
+  overflow: hidden;
+}
+.bracket {
+  font-size: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  font-weight: lighter;
+  line-height: 260px;
+}
+.box-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.why-box {
+  background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(240deg, #468cff, #0065ff) 0% 0% / auto repeat scroll padding-box border-box #0065ff;
+  color: #ffffff;
+  padding: 40px 0 100px;
+}
+.why-box img {
+  position: absolute;
+  z-index: 0;
+  width: 100px;
+  bottom: 0;
+  right: 0;
+}
+.customers-box {
+  padding: 40px 0 100px;
+}
+.customers-box img:not(:hover) {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transform: scale(0.7);
+}
+.customers-box img {
+  margin: 10px;
+  transition: all 0.1s linear;
+}
+footer {
+  background: #172b4d;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 20px 0;
+}
+footer hr {
+  background: #3b4b68;
+}
+footer .footer__menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none inside;
+  font-size: 12px;
+  margin: 20px 0;
+}
+footer .footer__menu li {
+  margin: 0 10px;
+}
+footer .footer__menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .mute-text {
+  color: #7f8c97 !important;
+}
+.hero-section {
+  background: url(../images/white-wave-bg.svg) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(60deg, #5243aa, #5dd8ff) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
+  background-blend-mode: normal, normal;
+  color: #ffffff;
+  padding: 120px 0 200px;
+}
+.hero-section img {
+  background-color: #fff;
+}
+/*# sourceMappingURL=index2.css.map */
