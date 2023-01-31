@@ -1,59 +1,23 @@
+body {
+  min-height: 100vh;
+}
 .hero-section {
-  background: url(../images/white-wave-bg.svg) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(60deg, #5243aa, #5dd8ff) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
-  background-blend-mode: normal, normal;
-  color: #ffffff;
-  padding: 220px 40px;
+  padding: 120px 0;
 }
 .hero-section__header {
-  font-size: 68px;
+  font-size: 40px;
+  font-weight: bolder;
 }
 .hero-section__subheader {
-  font-size: 28px;
-  text-transform: uppercase;
-}
-.app-bar {
-  padding: 20px 0;
-  background: transparent;
-}
-.app-bar-scroll-bg {
-  background: linear-gradient(60deg, #5243aa, #5dd8ff) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
-  background-blend-mode: normal, normal;
-  color: #ffffff !important;
-}
-.hamburger {
-  top: 20px!important;
-}
-.hamburger .line {
-  background: #ffffff !important;
-}
-.preview_image {
-  position: absolute;
-  z-index: 0;
-  top: 10px;
-  right: 10px;
-  width: 120px;
-}
-.preview-box .part-name {
-  margin-top: -30px;
-  margin-left: 10px;
-}
-.preview-box .part-desc {
-  font-weight: normal;
   font-size: 18px;
-  max-width: 100%;
-  margin: 20px 10px 0;
+  line-height: 24px;
 }
-.part-name {
-  font-size: 18px;
-  font-weight: bold;
+.top-customers {
+  filter: grayscale(100%);
 }
-.part-desc {
-  font-size: 20px;
-  max-width: 50%;
-  font-weight: bold;
-}
-.part-text {
-  font-size: 16px;
+.top-customers img {
+  margin: 4px;
+  transform: scale(0.8);
 }
 .part-number {
   position: absolute;
@@ -62,6 +26,61 @@
   right: 10px;
   color: #e6e8ea;
   opacity: 0.3;
+}
+.part-button {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+}
+.preview_image {
+  padding: 0 40px;
+  height: 300px;
+  overflow: hidden;
+}
+.bracket {
+  font-size: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  font-weight: lighter;
+  line-height: 260px;
+}
+.box-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 140px 20px 0;
+}
+.box-image img {
+  height: 120px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.why-box {
+  padding: 40px 0 100px;
+  background-color: #a1bae7;
+}
+.why-box img {
+  position: absolute;
+  z-index: 0;
+  width: 100px;
+  bottom: 0;
+  right: 0;
+}
+.customers-box {
+  padding: 40px 0 100px;
+}
+.customers-box img:not(:hover) {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transform: scale(0.7);
+}
+.customers-box img {
+  margin: 10px;
+  transition: all 0.1s linear;
 }
 footer {
   background: #172b4d;
@@ -90,60 +109,7 @@ footer .footer__menu a {
 footer .mute-text {
   color: #7f8c97 !important;
 }
-.overview-menu {
-  list-style: none inside;
-}
-.overview-menu li {
-  margin-top: 20px;
-  border: 1px solid transparent;
-  border-left-width: 4px;
-  padding: 10px;
-}
-.overview-menu li a {
-  text-decoration: none!important;
-}
-.overview-menu .part-desc {
-  max-width: 100%;
-  font-weight: normal;
-  font-size: 16px;
-  color: #3b4b68 !important;
-}
-.overview-menu li.active .part-desc {
-  font-weight: bold;
-}
-.overview-menu li.active {
-  border-color: #dfdfdf;
-}
-.bracket {
-  font-size: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #eee;
-  font-weight: lighter;
-}
-.why-box {
-  background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(240deg, #00b8d9, #0065ff) 0% 0% / auto repeat scroll padding-box border-box #0065ff;
-  color: #ffffff;
-  padding: 40px 0 100px;
-}
-.why-box img {
-  position: absolute;
-  z-index: 0;
-  width: 100px;
-  bottom: 0;
-  right: 0;
-}
-.customers-box {
-  padding: 40px 0 100px;
-}
-.customers-box img:not(:hover) {
-  filter: grayscale(100%);
-  opacity: 0.5;
-  transform: scale(0.7);
-}
-.customers-box img {
-  margin: 10px;
-  transition: all 0.1s linear;
+.hero-section img {
+  background-color: #fff;
 }
 /*# sourceMappingURL=index.css.map */
