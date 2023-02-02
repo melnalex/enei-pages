@@ -116,14 +116,17 @@ footer .footer__menu a {
 footer .mute-text {
   color: #7f8c97 !important;
 }
-.hero-section img {
-  background-color: #fff;
+.hero-section {
+  background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(240deg, #468cff, #0065ff) 0% 0% / auto repeat scroll padding-box border-box #0065ff;
+  background-blend-mode: normal, normal;
+  color: #ffffff;
+  padding: 180px 0;
 }
 .smaller-text {
   font-size: 14px;
 }
 .easyquery-hero {
-  background: url(../images/white-wave-bg.svg1) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(60deg, #5243aa, #ed50b4) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
+  background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #5243aa, #ed50b4) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
   background-blend-mode: normal, normal;
   color: #ffffff;
   padding: 40px 0 120px;
@@ -142,5 +145,8 @@ footer .mute-text {
   background: linear-gradient(60deg, #5243aa, #468cff) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
   background-blend-mode: normal, normal;
   color: #ffffff;
+}
+.easy-report-images img {
+  border: 1px solid #efefef;
 }
 /*# sourceMappingURL=index.css.map */
