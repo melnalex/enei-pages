@@ -1,3 +1,6 @@
+:root {
+  --secondary-color: #a1bae7;
+}
 body {
   min-height: 100vh;
 }
@@ -60,8 +63,8 @@ body {
   right: 0;
 }
 .why-box {
-  padding: 40px 0 100px;
-  background-color: #a1bae7;
+  padding: 80px 0 100px;
+  background-color: var(--secondary-color);
 }
 .why-box img {
   position: absolute;
@@ -69,6 +72,10 @@ body {
   width: 100px;
   bottom: 0;
   right: 0;
+}
+.easy-js {
+  padding: 100px 0 100px;
+  background-color: var(--secondary-color);
 }
 .customers-box {
   padding: 40px 0 100px;
@@ -111,5 +118,29 @@ footer .mute-text {
 }
 .hero-section img {
   background-color: #fff;
+}
+.smaller-text {
+  font-size: 14px;
+}
+.easyquery-hero {
+  background: url(../images/white-wave-bg.svg1) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(60deg, #5243aa, #ed50b4) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
+  background-blend-mode: normal, normal;
+  color: #ffffff;
+  padding: 40px 0 120px;
+}
+.easyquery-color {
+  background: linear-gradient(60deg, #5243aa, #ed50b4) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
+  background-blend-mode: normal, normal;
+  color: #ffffff;
+}
+.localizer-color {
+  background: linear-gradient(60deg, #2b4b0a, #bff68e) 0% 0% / auto repeat scroll padding-box border-box #2b4b0a;
+  background-blend-mode: normal, normal;
+  color: #ffffff;
+}
+.metroui-color {
+  background: linear-gradient(60deg, #5243aa, #468cff) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
+  background-blend-mode: normal, normal;
+  color: #ffffff;
 }
 /*# sourceMappingURL=index.css.map */
