@@ -16,9 +16,9 @@
 
         <ul class="app-bar-menu ml-auto">
             <li><a href="index.html">HOME</a></li>
-            <li><a href="easyquery.html" class="text-bold">EASYQUERY</a></li>
+            <li><a href="easyquery.html">EASYQUERY</a></li>
             <li><a href="#">METRO UI</a></li>
-            <li><a href="#">LOCALIZER</a></li>
+            <li><a href="localizer.html" class="text-bold">LOCALIZER</a></li>
             <li><a href="#">BLOG</a></li>
             <li><a href="#">SUPPORT</a></li>
             <li><a href="#"><span class="mif-user mr-2"></span>SIGNIN</a></li>
@@ -31,46 +31,45 @@
 <br/>
 
 
-<section class="container-fluid bg-light easyquery-hero">
+<section class="container-fluid bg-light localizer-hero">
     <div class="container">
-<!--        <h2 class="text-center text-bold">OVERVIEW</h2>-->
         <div class="row mt-20">
             <div class="cell-lg-6 pr-10-lg">
                 <div id="organizing">
-                    <h2 class="text-bold">01. Organizing the data flow</h2>
+                    <h2 class="text-bold">01. Target</h2>
                     <p class="smaller-text">
-                        Any data processing in a database application usually begins and ends at the presentation level. The user asks the system for some data, this "request" is converted into a query (or several queries) to the database, we receive data from there, process it, format it if necessary and send it back for display in the UI.
+                        Localizer is a set of Delphi wizards and components which make your applications really multilingual and helps you to translate your programs to other languages.
                     </p>
                 </div>
                 <div id="queries" class="mb-6 mt-6">
-                    <h2 class="text-bold">02. Complex queries</h2>
+                    <h2 class="text-bold">02. Resources</h2>
                     <p class="smaller-text">
-                        In many projects, the number of parameters by which you can search for data is in the tens or even hundreds. EasyQuery provides a unified and easy-to-use UI for building complex queries on many parameters, converting them into database queries and displaying results.
+                        It can work with any string resources in your project: properties of components on the forms, resource string constants, VCL messages and the messages from third-party packages. The support for additional languages can be added without recompilation of the project, even by your "end users".
                     </p>
                 </div>
                 <div id="visualisation">
-                    <h2 class="text-bold">03. Data visualization</h2>
+                    <h2 class="text-bold">03. Compatible</h2>
                     <p class="smaller-text">
-                        EasyQuery includes many visual components both to build complex queries and to display the results of those queries in all possible variations. It includes different widgets that represent the query (QueryPanel, ColumnsPanel, etc), a multifunctional table (grid) to display the result, pagination controls, aggregation and grouping UI, charts, dashboards, ad-hoc reporting components and many other UI widgets.
+                        Localizer is compatible with all Delphi or C++ Builder versions starting from 6.0 and higher (including the latest Delphi versions as soon as they are released). Version 3.x of Localizer can be used with Delphi 3-5 as well.
                     </p>
                 </div>
             </div>
             <div class="cell-md-1 d-none d-flex-md flex-align-center">
-                <div class="bracket" style="color: rgb(243,96,190); margin-top: -40px;">}</div>
+                <div class="bracket" style="color: #97c86b; margin-top: -60px;">}</div>
             </div>
             <div class="cell-lg-5 d-flex flex-column flex-justify-center pl-10-lg hero-images">
                 <div class="shadow-3">
-                    <img src="https://korzh.com/static/images/eq/slides/eq-ss-advanced-search.png" alt="">
+                    <img src="https://korzh.com/static/localizer/sshots/localizer_sshot04.png" alt="">
                 </div>
                 <div class="row mt-1">
                     <div class="cell-4">
-                        <button class="button w-100 fg-white text-bold bg-pink-hover" style="background: #e950b4;">Try EASY.QUERY</button>
+                        <button class="button w-100 fg-white text-bold bg-darkGreen-hover" style="background: #8cc954;">Try EASY.QUERY</button>
                     </div>
                     <div class="cell-4 pl-1 pr-1">
-                        <button class="button w-100 fg-white text-bold bg-pink-hover" style="background: #e950b4;">Read Docs</button>
+                        <button class="button w-100 fg-white text-bold bg-darkGreen-hover" style="background: #8cc954;">Read Docs</button>
                     </div>
                     <div class="cell-4">
-                        <button class="button w-100 fg-white text-bold bg-pink-hover" style="background: #e950b4;">Buy License</button>
+                        <button class="button w-100 fg-white text-bold bg-darkGreen-hover" style="background: #8cc954;">Buy License</button>
                     </div>
                 </div>
             </div>
@@ -86,79 +85,79 @@
 
 <section class="container-fluid">
     <div class="container">
-        <h2 class="text-center text-normal">USE<span class="text-bold">.CASES</span></h2>
-        <p class="text-leader2 mt-20 mb-10">
-            As we said before, EasyQuery will be helpful almost of any database application. However, for some most common scenarios we create a ready-to-use sample projects that you start using right away with a minimal adjustments to your data model and the database type. Here are these scenarios:
-        </p>
+        <h2 class="text-center text-normal">MAIN<span class="text-bold">.FEATURES</span></h2>
 
-        <ul data-role="tabs" data-tabs-type="pills" data-expand="true" data-cls-tabs="flex-justify-center mt-2">
-            <li><a href="#reporting">Reporting</a></li>
-            <li><a href="#adv-search">Advanced Search</a></li>
-            <li><a href="#filtering">Data Filtering</a></li>
-            <li><a href="#searching">Searching</a></li>
-        </ul>
-
-        <div>
-            <div id="reporting">
-                <div class="row mt-20">
-                    <div class="cell-lg-6 pr-10">
-                        <div class="border bd-default">
-                            <img src="https://korzh.com/static/images/eq/slides/eq-ss-adhoc-reporting.png"/>
-                        </div>
-                    </div>
-                    <div class="cell-lg-6 d-flex flex-column flex-justify-center">
-                        <h3 class="text-bold">Ad-hoc reporting</h3>
-                        Have you ever heard from your customer: "We need to change 3 reports and create 5 new"? Have you calculated the time and energy spent on all these trifles?
-                        <p>With EasyQuery you give you users the ability to build/change queries for reports, save and load them, draw charts and export results.
-                        <p>You don't even need to build such an application from scratch! Using our EasyReport Starter Kit you will get a ready-to-use reporting solution with multi-tenancy, data exports, scheduled reports and many other useful feature. You can just get the code, white-label the application and deploy it to your web-server.
-                        <p><a href="#">Live demo...</a></p>
-                    </div>
+        <div class="row mt-20">
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>ONE .EXE FILE - MANY SUPPORTED LANGUAGES</h5>
+                    <p>Additional languages can be added without recompilation.
                 </div>
             </div>
-            <div id="adv-search">
-                <div class="row mt-20">
-                    <div class="cell-lg-6 pr-10">
-                        <div class="border bd-default">
-                            <img src="https://korzh.com/static/images/eq/slides/eq-ss-advanced-search.png"/>
-                        </div>
-                    </div>
-                    <div class="cell-lg-6 d-flex flex-column flex-justify-center">
-                        <h3 class="text-bold">Advanced search form</h3>
-                        What if your users need to search by many different parameters and in various combinations? Typical search form looks like a mess of different controls related to one database field each. It may occupy the full screen but even in this case it may not cover all possible combinations of conditions.
-                        <p>Do your users fated to use such ugly forms? Not with EasyQuery!
-                        <p>The EasyQuery interface is laconic and intuitive, it allows to build almost any combination of conditions your users could wish for.
-                        <p><a href="#">Live demo...</a></p>
-                    </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>LANGUAGE FILES</h5>
+                    <p>Localizer can use both standard resource DLLs or special "language files" to store localized resources.
                 </div>
             </div>
-            <div id="filtering">
-                <div class="row mt-20">
-                    <div class="cell-lg-6 pr-10">
-                        <div class="border bd-default">
-                            <img src="https://korzh.com/static/images/eq/slides/eq-ss-data-filtering.png"/>
-                        </div>
-                    </div>
-                    <div class="cell-lg-6 d-flex flex-column flex-justify-center">
-                        <h3 class="text-bold">Data filtering UI</h3>
-                        Whenever you show the grid with more than several rows of data, your users may need to filter the data somehow. Usually, you don't know how exactly they need to filter the data. Let them use EasyQuery and relax! They will do the job easily and will be happy.
-                        <p><a href="#">Live demo...</a></p>
-                    </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>NO ADDITIONAL PROJECTS</h5>
+                    <p>It does not require you to create a project group with many sub-projects (as in ITE).
                 </div>
             </div>
-            <div id="searching">
-                <div class="row mt-20">
-                    <div class="cell-lg-6 pr-10">
-                        <div class="border bd-default">
-                            <img src="https://korzh.com/static/images/eq/slides/eq-ss-fulltext-search.png"/>
-                        </div>
-                    </div>
-                    <div class="cell-lg-6 d-flex flex-column flex-justify-center">
-                        <h3 class="text-bold">Simple text search</h3>
-                        Querying the data is relatively easy if know what and where you want to search. But what if you don't?
-                        <p>Imagine that you need to find any mention of some word or phrase through the whole database, in any possible field. Moreover, you may want to limit the searchable data by some criteria.
-                        <p>With EasyQuery you are one step away from success.
-                        <p><a href="#">Live demo...</a></p>
-                    </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>LANGUAGE MANAGER</h5>
+                    <p>Freely distributed utility that allows you to separate the development process from the translation.
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>THIRD-PARTY SUPPORT</h5>
+                    <p>Localizer supports all third-party components and packages (like FastReports, DevExpress, TurboPower, ElPack, RX, etc.).
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>DOES NOT CHANGE YOUR PROJECT</h5>
+                    <p>No additional components on the forms, function calls instead of string constants etc. You can compile you project without Localizer installed and it will work fine.
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>CONSTANTS TRANSLATION</h5>
+                    <p>Localizer processes resourcestring section.
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>TRANSLATES EVERYTHING</h5>
+                    <p>* VCL and any third-party tool/package resources.
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>EASY TO START</h5>
+                    <p>You can test how it works on your existing project immediately after installation of Localizer.
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>LANGUAGE REPOSITORY</h5>
+                    <p>Language Repository helps you to store translations and reuse them in the future.
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>REQUIRES MINIMUM ADDITION OF CODE...</h5>
+                    <p>...or does not require it at all.
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="m-1 border bd-default p-4">
+                    <h5>EASY SWITCHING FROM BORLAND'S ITE</h5>
+                    <p>You can easy switching from Integrated Translation Environment
                 </div>
             </div>
         </div>
@@ -177,21 +176,20 @@
             <div class="cell-lg-6">
                 <div class="row" data-role="lightbox">
                     <div class="cell-6 p-2">
-                        <img src="https://korzh.com/static/easyquery/sshots/asp-net-mvc.png" alt="">
+                        <img src="https://korzh.com/static/localizer/sshots/localizer_sshot03.png" alt="">
                     </div>
                     <div class="cell-6 p-2">
-                        <img src="https://korzh.com/static/easyquery/sshots/reporting.png" alt="">
+                        <img src="https://korzh.com/static/localizer/sshots/localizer_sshot04.png" alt="">
                     </div>
                     <div class="cell-6 p-2">
-                        <img src="https://korzh.com/static/easyquery/sshots/grid-filtering.png" alt="">
+                        <img src="https://korzh.com/static/localizer/sshots/localizer_sshot07.png" alt="">
                     </div>
                     <div class="cell-6 p-2">
-                        <img src="https://korzh.com/static/easyquery/sshots/advangle.png" alt="">
+                        <img src="https://korzh.com/static/localizer/sshots/localizer_sshot02.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="cell-md-1 d-none d-flex-md flex-align-center">
-<!--                <div class="bracket" style="color: #0572a9; margin-top: -40px;">{</div>-->
             </div>
             <div class="cell-lg-5 d-flex flex-column flex-justify-center">
                 <h1>SCREEN<span class="text-bold">.SHOTS</span></h1>
