@@ -121,11 +121,15 @@ footer .footer__menu a {
 footer .mute-text {
   color: #7f8c97 !important;
 }
-.hero-section {
+.hero-section,
+.metroui-hero {
   background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(240deg, #468cff, #0065ff) 0% 0% / auto repeat scroll padding-box border-box #0065ff;
   background-blend-mode: normal, normal;
   color: #ffffff;
   padding: 180px 0;
+}
+.metroui-hero {
+  padding: 100px 0 120px;
 }
 .smaller-text {
   font-size: 14px;
@@ -140,7 +144,7 @@ footer .mute-text {
   background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #2b4b0a, #bff68e) 0% 0% / auto repeat scroll padding-box border-box #2b4b0a;
   background-blend-mode: normal, normal;
   color: #ffffff;
-  padding: 40px 0 120px;
+  padding: 100px 0 140px;
 }
 .easyquery-color {
   background: linear-gradient(60deg, #5243aa, #ed50b4) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
