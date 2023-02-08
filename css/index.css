@@ -140,6 +140,10 @@ footer .mute-text {
   color: #ffffff;
   padding: 40px 0 120px;
 }
+.login-body {
+  background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #5243aa, #468cff) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
+  background-blend-mode: normal, normal;
+}
 .localizer-hero {
   background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #2b4b0a, #bff68e) 0% 0% / auto repeat scroll padding-box border-box #2b4b0a;
   background-blend-mode: normal, normal;
@@ -195,5 +199,8 @@ footer .mute-text {
 }
 .more-question {
   padding: 80px 0;
+}
+.login-body {
+  padding: 10px;
 }
 /*# sourceMappingURL=index.css.map */
