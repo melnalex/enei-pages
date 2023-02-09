@@ -230,4 +230,13 @@ footer .mute-text {
   color: #d38ef6;
   opacity: 0.2;
 }
+.step-number {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 64px;
+  z-index: 0;
+  color: #efefef;
+  font-weight: bold;
+}
 /*# sourceMappingURL=index.css.map */
