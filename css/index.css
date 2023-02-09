@@ -150,6 +150,12 @@ footer .mute-text {
   color: #ffffff;
   padding: 100px 0 140px;
 }
+.easyreport-hero {
+  background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #792e78, #d38ef6) 0% 0% / auto repeat scroll padding-box border-box #792e78;
+  background-blend-mode: normal, normal;
+  color: #ffffff;
+  padding: 100px 0 140px;
+}
 .easyquery-color {
   background: linear-gradient(60deg, #5243aa, #ed50b4) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
   background-blend-mode: normal, normal;
@@ -214,5 +220,14 @@ footer .mute-text {
 .scrollable-container table {
   width: auto;
   min-width: 100%;
+}
+.feature-check {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 0;
+  font-size: 48px;
+  color: #d38ef6;
+  opacity: 0.2;
 }
 /*# sourceMappingURL=index.css.map */
