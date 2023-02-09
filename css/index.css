@@ -208,4 +208,11 @@ footer .mute-text {
   font-weight: bold;
   margin-top: 20px;
 }
+.scrollable-container {
+  overflow-x: auto;
+}
+.scrollable-container table {
+  width: auto;
+  min-width: 100%;
+}
 /*# sourceMappingURL=index.css.map */
