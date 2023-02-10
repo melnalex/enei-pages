@@ -239,4 +239,11 @@ footer .mute-text {
   color: #efefef;
   font-weight: bold;
 }
+.easyquery-editions-tabs li.active {
+  background-color: #faa2d6 !important;
+  border: none!important;
+}
+.easyquery-editions-tabs li.active a {
+  color: #fff !important;
+}
 /*# sourceMappingURL=index.css.map */
