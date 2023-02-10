@@ -239,11 +239,16 @@ footer .mute-text {
   color: #efefef;
   font-weight: bold;
 }
+.easyquery-editions-bg {
+  background-color: #792e78;
+  color: #ffffff;
+  padding: 120px 0;
+}
 .easyquery-editions-tabs li.active {
-  background-color: #faa2d6 !important;
+  background-color: #8d388c !important;
   border: none!important;
 }
-.easyquery-editions-tabs li.active a {
+.easyquery-editions-tabs li a {
   color: #fff !important;
 }
 /*# sourceMappingURL=index.css.map */
