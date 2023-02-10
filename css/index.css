@@ -126,7 +126,7 @@ footer .mute-text {
   background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(240deg, #468cff, #0065ff) 0% 0% / auto repeat scroll padding-box border-box #0065ff;
   background-blend-mode: normal, normal;
   color: #ffffff;
-  padding: 180px 0;
+  padding: 120px 0;
 }
 .metroui-hero {
   padding: 100px 0 120px;
@@ -148,13 +148,13 @@ footer .mute-text {
   background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #2b4b0a, #bff68e) 0% 0% / auto repeat scroll padding-box border-box #2b4b0a;
   background-blend-mode: normal, normal;
   color: #ffffff;
-  padding: 100px 0 140px;
+  padding: 40px 0 140px;
 }
 .easyreport-hero {
   background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #792e78, #d38ef6) 0% 0% / auto repeat scroll padding-box border-box #792e78;
   background-blend-mode: normal, normal;
   color: #ffffff;
-  padding: 100px 0 140px;
+  padding: 40px 0 140px;
 }
 .easyquery-color {
   background: linear-gradient(60deg, #5243aa, #ed50b4) 0% 0% / auto repeat scroll padding-box border-box #5243aa;
