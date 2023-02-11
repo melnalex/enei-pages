@@ -79,7 +79,7 @@ body {
   background-color: #ffccea;
 }
 .localizer-js {
-  padding: 100px 0 100px;
+  padding: 40px 0;
   background-color: var(--third-color);
 }
 .customers-box {
@@ -129,7 +129,7 @@ footer .mute-text {
   padding: 120px 0;
 }
 .metroui-hero {
-  padding: 100px 0 120px;
+  padding: 0;
 }
 .smaller-text {
   font-size: 14px;
@@ -148,7 +148,7 @@ footer .mute-text {
   background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #2b4b0a, #bff68e) 0% 0% / auto repeat scroll padding-box border-box #2b4b0a;
   background-blend-mode: normal, normal;
   color: #ffffff;
-  padding: 40px 0 140px;
+  padding: 0;
 }
 .easyreport-hero {
   background: url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box, url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, #792e78, #d38ef6) 0% 0% / auto repeat scroll padding-box border-box #792e78;
@@ -182,7 +182,7 @@ footer .mute-text {
 }
 .metroui-screens {
   background-color: #7babff;
-  padding: 120px 0;
+  padding: 40px 0;
   color: #ffffff;
 }
 .metroui-screens .img-wrap {
@@ -197,7 +197,7 @@ footer .mute-text {
 }
 .license-price {
   background-color: #efefef;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .hours-count {
   font-size: 24px;
