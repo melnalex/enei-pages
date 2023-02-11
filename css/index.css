@@ -254,4 +254,8 @@ footer .mute-text {
 .localizer-features .feature-check {
   color: #73cc23;
 }
+.app-bar-menu li:not(.no-hover):hover {
+  background-color: #2278ff !important;
+  color: #fff !important;
+}
 /*# sourceMappingURL=index.css.map */
