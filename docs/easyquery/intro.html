@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Introduction </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Introduction ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/korzhbw.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="introduction">Introduction</h1>
+
+<p>If in short, EasyQuery - a set of components that allow you (as a developer) to implement a functional, user-friendly query builder in your application.</p>
+<p>Any modern application typically operates with a certain set of data. Here we are talking about almost any type of applications: the classic desktop programs, web applications or applications for different mobile platforms.</p>
+<p>All functionality of any program can be divided into two main components: either it is data entry or retrieval. If the first part is more or less clear, the second involves many different aspects: it is searching, sorting, filtering, reporting, statistics, etc. One thing unites all these subsystems: the users usually require some way to specify what data they need. For example: for what period, for which client, product, employee, etc. Most often, program data are stored in a kind of relational database (SQL Server, MySQL, Access, SQLite, etc.) and support the SQL query language, or some variation of it (HQL, Entity SQL, etc.). Besides, in recent years so-called No-SQL databases become very popular. Many of them have their query languages.</p>
+<p>Regardless of the database type and the query language is a programmer’s task to implement a convenient UI for search and filtering data in the program.
+Usually it looks like the following:</p>
+<ul>
+<li>The user enters some values which will define the search criteria. For example, a phone number or a client’s ZIP code.</li>
+<li>The program builds a query using these values, executes the query and displays the result to the user.</li>
+</ul>
+<p>In this scheme, a set of fields on which to search and query itself remains the same. Only the values of some query parameters can be changed. If you need to add in a search some new attributes (for example, to search additionally by client’s email or address), then it will be necessary to make some changes in the program - add fields on the form, modify the SQL statement in the code, etc.</p>
+<p>The solution of the problem is obvious: you need to give your users a possibility to build their queries, with any attributes and search criteria.</p>
+<p>There is a class of programs, called &quot;query builders&quot; which solve this problem. However, most such programs are not suitable for regular users since they require some understanding database principles (tables, joins, primary/foreign keys, etc.). Also, these solutions usually offered as standalone programs that require installation and can not be called from your application.</p>
+<p>To solve the above problems we developed EasyQuery library.
+It is a set of components that you can embed in your program. At the moment, there are several editions of EasyQuery for different platforms: Windows Forms, ASP.NET WebForms, ASP.NET MVC, WPF, Silverlight. EasyQuery components offer a user-friendly, and (also crucial) unified query builder UI for your applications.
+Saying &quot;user-friendly&quot; for query builder we mean the following:</p>
+<ul>
+<li>Users operate the concepts that are familiar to them. For example: &quot;Company name&quot; instead of &quot;customer.com_name&quot; or &quot;start with ...&quot; instead LIKE 'A%'</li>
+<li>For each search attribute, you can specify a set of valid values. The user will only need to select the value (s) from this list, instead of typing it manually.</li>
+<li>The query itself is presented to the user as a phrase in a natural language, which he/she can modify visually (add a new statement or modify the existing ones).</li>
+<li>Any query condition can be temporarily disabled (without removing) to see how the result data set will change after that.</li>
+<li>And a lot of other little things that make it easier for users to find the data they need.</li>
+</ul>
+<p>EasyQuery is easily configured to work with any database and with a plurality of different query languages. Any query built by users with EasyQuery can be easily saved to a file or database and then loaded back when necessary.</p>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

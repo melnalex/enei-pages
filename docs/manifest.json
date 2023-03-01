@@ -1,0 +1,236 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Projects/EasyDataDocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "easyquery-js/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery-js/index.html",
+          "hash": "ocwhWVkRrGKZKEEc+l7b94KzCp5exznVEFBmsND9KQM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "easyquery-js/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery-js/toc.html",
+          "hash": "vgG/fKMKZohci6ERM5HILO0qFI1hjkfHAwXbj14dk6M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "easyquery/end_users_guide.md",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery/end_users_guide.html",
+          "hash": "hoo6fQEqFa6yuDc/zF7wM2g7RNHmQP93SByMoXMGwjs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "easyquery/getting-started/connect_to_database.md",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery/getting-started/connect_to_database.html",
+          "hash": "tBwOsL1cVbPnyZoBuKsV0HULJph6u6Al77yN3IgciD8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "easyquery/getting-started/copying_code_from_sample_to_project.md",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery/getting-started/copying_code_from_sample_to_project.html",
+          "hash": "pVZNdj4aaKv16Rh/spSDjYNFSAcaz2f1Yqljww496Ok="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "easyquery/getting-started/started_asp_net_4.md",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery/getting-started/started_asp_net_4.html",
+          "hash": "TOoxA5SUm9aIRb0+8N/gWaC4ZqS0on+KAD+RD0DneTU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "easyquery/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery/index.html",
+          "hash": "H202O7APHnSTrVgOdLBrX//Ifmzw/7q4qHOMa97a2iY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "easyquery/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery/intro.html",
+          "hash": "pGdzg6FYMiS87u5dadZ18wOGPeOMBIbi6NRcnVGN7AE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "easyquery/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "easyquery/toc.html",
+          "hash": "3d+Q3IHcbqGQG4GomR8KQYclvbn1mmtKgI35QLMS+d0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "easyreport/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "easyreport/index.html",
+          "hash": "b9zy5wGnxdZAY13nlItXoRqEbMFPT68yVuXks2BxFDY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "easyreport/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "easyreport/toc.html",
+          "hash": "vgG/fKMKZohci6ERM5HILO0qFI1hjkfHAwXbj14dk6M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/eq-ui-all.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/eq-ui-all.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/eq-ui-columnspanel.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/eq-ui-columnspanel.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/eq-ui-entitiespanel.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/eq-ui-entitiespanel.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/eq-ui-querypanel.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/eq-ui-querypanel.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/korzhbw.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/korzhbw.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "2glekK4zjzkjZEZqS14ojiNmv5m5jCwIbXUP+LiRoj8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "localizer/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "localizer/index.html",
+          "hash": "j+k/HaqFR5nB+I9cOhZkAbpjjlXrx3or+Byhx5/Z24M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "localizer/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "localizer/toc.html",
+          "hash": "vgG/fKMKZohci6ERM5HILO0qFI1hjkfHAwXbj14dk6M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "/5HwDVxTzcM6B87GT1n1p1+HGfAKVBcuHbbr6y7P7VA="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Copying the EasyQuery&#39;s code from a sample to your project </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Copying the EasyQuery&#39;s code from a sample to your project ">
+    
+      <link rel="shortcut icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/korzhbw.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="copying-the-easyquerys-code-from-a-sample-to-your-project">Copying the EasyQuery's code from a sample to your project</h1>
+
+<p>To copy a view/page with EasyQuery’s functionality (like “Advanced Search” or “Ad-hoc reporting”) you need to perform the following 3 simple steps:</p>
+<ol>
+<li><p>Install EasyQuery packages. This step is simple: just take a look which <code>Korzh.EasyQuery.*</code> packages are used in the sample you are copying your code from and install the same ones in your own project.</p>
+</li>
+<li><p>Setup EasyQuery's services (like <code>services.AddEasyQuery()</code> in <code>Startup.ConfigureServices</code>) and EasyQuery's endpoint (for ASP.NET and ASP.NET Core projects)</p>
+</li>
+<li><p>Copy the form/page/view that implements one of the search/reporting/filtering scenarios you would like to see in your solution.</p>
+</li>
+</ol>
+<p>Below we are going to describe each of these steps more in detail for each platform/framework:</p>
+<h2 id="aspnet-core-project">ASP.NET Core project</h2>
+<h3 id="1-install-easyquery-packages">1. Install EasyQuery packages</h3>
+<p>Obviously, you will need <code>Korzh.EasyQuery.AspNetCore</code> package and possibly some other (depending on the scenario). As mentioned above, use the same packages as in the sample project you are copying the code from.</p>
+<h3 id="2-copy-the-easyquery-services-configuration">2. Copy the EasyQuery services configuration.</h3>
+<p>It’s that <code>services.AddEasyQuery()...</code> piece in <code>Startup.ConfigureServices</code></p>
+<h3 id="3-copy-easyquery-middleware-configuration">3. Copy EasyQuery middleware configuration</h3>
+<p>It's <code>app.UseEasyQuery(...)</code> call in  <code>Startup.Configure</code>. Our sample might have 2 (or more) middlewares (for demonstration purposes), one - for &quot;advanced search&quot;, another one - for the &quot;ad-hoc reporting&quot; scenario. Most probably you will need only one of them.</p>
+<h3 id="4-copy-the-pageview">4. Copy the page/view</h3>
+<p>In our sample, the “Ad-hoc reporting&quot; page is an MVC view ( in <code>Views\Home\AdhocReporting.cshtml</code>) while “Advanced Search” is a Razor Page . Of course, in case of the MVC view you will also need to copy the corresponding action method from the controller (it's <code>HomeController</code> in case of of &quot;ad-hoc reporting&quot;).</p>
+<h2 id="aspnet-project">ASP.NET project</h2>
+<h3 id="1-install-easyquery-packages-1">1. Install EasyQuery packages</h3>
+<p>It's <code>Korzh.EasyQuery.AspNet4</code> and other packages depending on the scenario. As in the previous case, use the same packages as in the sample project you are copying the code from.</p>
+<h3 id="2-setup-the-webapi-controller">2. Setup the WebAPI controller</h3>
+<p>Server-side part of EasyQuery works via a WebAPI controller which handles all AJAX requests from the JS widgets placed on views/pages. So you need to install Web API in your project if you don't have it yet. This topic is covered in another our article: <a href="/$aid/eqdn-tp2v66l73lbj">$$-Getting started for ASP.NET 4-$$</a> (use Step 2 there). If the WebAPI is installed in your project already, just copy the corresponding controller (e.g. &quot;AdvancedSearchController.cs&quot;) to your project</p>
+<h3 id="3-copy-the-formpage">3. Copy the form/page.</h3>
+<p>If it's an MVC project, you will need to copy a .cshtml file (like <code>AdvancedSearch.cshtml</code>) and the corresponding action in the MVC Controller (it's <code>HomeController</code> in most of our samples).</p>
+<p>If it's a WebForms, please copy the <code>.aspx</code> page (<code>EasyQuery.aspx</code> most probably) and the corresponding code-behind file  <code>EasyQuery.aspx.cs</code>).</p>
+<h2 id="windows-forms-or-wpf-project">Windows Forms or WPF project</h2>
+<h3 id="1-install-easyquery-packages-2">1. Install EasyQuery packages</h3>
+<p>It's <code>Korzh.EasyQuery.Wpf</code> for WPF project or <code>Korzh.EasyQuery.WinForms</code> - for WinForms.  As in the previous cases, you will also need some other EasyQuery packages depending on the scenario you use. Install the same packages as in the sample project you are copying the code from.</p>
+<h3 id="2-copy-the-form-with-easyquery-components">2. Copy the form with EasyQuery components</h3>
+<p>It will be the <code>.cs</code> file and the corresponding files (like <code>.Designer.cs</code> or <code>.Resources.resx</code>). In our samples we usually place EasyQuery functionality on the  the main form (<code>MainForm.cs</code>), so you will probably need to rename it in your project.</p>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

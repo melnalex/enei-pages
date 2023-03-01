@@ -1,0 +1,19 @@
+#logo {
+    height: 38px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.navbar {
+    /*min-height: 80px;*/
+}
+
+.navbar-inverse {
+    background-color: #ffffff;
+    border-color: #ededed;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: #3b8bd0;
+    color: #ffffff;
+}
