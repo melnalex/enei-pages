@@ -1,4 +1,4 @@
-name: deploy-docusaurus
+name: docusaurus
 
 on:
   push:
