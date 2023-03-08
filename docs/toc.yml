@@ -1,0 +1,8 @@
+- name: EasyQuery.NET
+  href: easyquery/
+- name: EasyQuery.JS
+  href: easyquery-js/
+- name: Easy.REPORT
+  href: easyreport/
+- name: Localizer
+  href: localizer/
