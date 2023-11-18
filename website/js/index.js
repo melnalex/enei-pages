@@ -1,7 +1,5 @@
-import {createEneiEditor} from "@olton/enei-editor"
-import "../css/index.less"
-
-createEneiEditor({
+eneiEditor.createEneiEditor({
     shortcut: "alt+ctrl+e",
-    serverEndpoint: "http://localhost:5232"
+    serverEndpoint: "https://enei-server.azurewebsites.net",
+    maxHeight: 300
 })
