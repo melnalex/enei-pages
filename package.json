@@ -14,5 +14,6 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
+    "@olton/enei-editor": "^0.1.0"
   }
 }
